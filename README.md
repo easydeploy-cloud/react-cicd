@@ -35,8 +35,6 @@ cp -arp * /var/www/html
 ~~~
 ~~~
 cd /var/www/html
-~~~
-~~~
 ls 
 ~~~
 ~~~
@@ -97,7 +95,7 @@ du -sh *
 ~~~
 vi buildspec.yml
 ~~~
-# use the below content for buildspec
+### use the below content for buildspec
 ~~~
 version: 0.2
 
@@ -130,7 +128,7 @@ vi appspec.yml
 ~~~
 reference link for appspec file --> https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html
 
-# use the below content for buildspec
+### use the below content for buildspec
 
 ~~~
 version: 0.0
@@ -158,7 +156,7 @@ cd scripts
 ~~~
 vi before_install.sh
 ~~~
-# use the below content for before_install
+### use the below content for before_install
 ~~~
 #!/bin/bash
 yum update -y
@@ -167,7 +165,7 @@ yum update -y
 ~~~
 vi after_install.sh
 ~~~
-# use the below content for after_install
+### use the below content for after_install
 ~~~
 #!/bin/bash
 cd /var/www/html
