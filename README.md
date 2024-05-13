@@ -157,7 +157,7 @@ cd scripts
 ~~~
 ~~~
 vi before_install.sh
-
+~~~
 # use the below content for before_install
 ~~~
 #!/bin/bash
