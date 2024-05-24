@@ -128,7 +128,7 @@ vi appspec.yml
 ~~~
 reference link for appspec file --> https://docs.aws.amazon.com/codedeploy/latest/userguide/reference-appspec-file.html
 
-### use the below content for buildspec
+### use the below content for appspec
 
 ~~~
 version: 0.0
