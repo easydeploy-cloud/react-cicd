@@ -135,7 +135,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/hooks:
+    destination: /var/www/html/
+hooks:
   BeforeInstall:
     - location: scripts/before_install.sh
       timeout: 300
